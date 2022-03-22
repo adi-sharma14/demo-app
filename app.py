@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome to the mission demo"
+    return "Welcome to the mission demo for AQ"
 
 @app.route('/mission-statement')
 def hello():
